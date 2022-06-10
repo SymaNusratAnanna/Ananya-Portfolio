@@ -8,6 +8,7 @@ import About from './Pages/About/About';
 import Resume  from './Pages/Resume';
 import ContactMe from './Pages/ContactMe';
 import Projects from './Pages/Projects/Projects';
+import Blogs from './Pages/Home/Blogs';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./style.css";
 
@@ -22,6 +23,7 @@ function App() {
          <Route path ="/about" element={<About></About>}></Route>
          <Route path ="/projects" element={<Projects></Projects>}></Route>
          <Route path ="/resume" element={<Resume></Resume>}></Route>
+         <Route path ="/blogs" element={<Blogs></Blogs>}></Route>
          <Route path ="/contact" element={<ContactMe></ContactMe>}></Route>
     </Routes>
       

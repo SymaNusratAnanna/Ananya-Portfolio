@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// import homeLogo from "../../Assets/home-main.svg";
+import animecode from "../../Assets/anime-code.jpg";
 // import Particle from "../Particle";
 
 // import pdf from "../../Assets/Imriaz's Resume.pdf";
@@ -10,6 +10,9 @@ import Home2 from "../Home/Home2";
 import Type from "./Type";
 import ContactMe from "../ContactMe";
 import Resume from "../Resume";
+import Footer from "../Footer";
+import Techstack from "../About/Techstack";
+import Toolstack from "../About/Toolstack";
 // import Home2 from "./Home2";
 
 function Home() {
@@ -34,16 +37,30 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
-              {/* <img src={homeLogo} alt="home pic" className="img-fluid" /> */}
+            <Col  md={5}
+            style={{ paddingTop: "100px", paddingBottom: "40px" }}>
+              <img src={animecode} alt="home pic" className="img-fluid" />
             </Col>
           </Row>
         </Container>
       </Container>
       <Resume />
       <Home2 />
+      <h1 className="project-heading black">
+           <strong className="black text-center ">Professional </strong>Skillset
+        </h1>
+
+        <Techstack />
+
+        <h1 className="project-heading black">
+          <strong className="black text-center">Tools</strong> I use
+        </h1>
+        <Toolstack />
       <ContactMe />
+      <Footer></Footer>
+
     </section >
+    
   );
 }
 

@@ -321,7 +321,7 @@ html {
 }
 
 .home-about-description {
-  color: rgb(196, 139, 235) !important;
+  color: rgb(27, 5, 107) !important;
   padding-top: 100px !important;
   padding-bottom: 20px !important;
   text-align: center;
@@ -336,7 +336,7 @@ html {
 .home-about-social {
   text-align: center !important;
   padding-top: 25px;
-  color: rgb(110, 138, 216) !important;
+  color: rgb(5, 24, 78) !important;
 }
 
 .home-about-social-links {
@@ -355,7 +355,7 @@ html {
   text-align: center !important;
   font-size: 1.2em !important;
   line-height: 2em !important;
-  background: rgba(255, 255, 255, 0.972) !important;
+  background: rgba(196, 137, 207, 0.972) !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
 }
@@ -528,10 +528,12 @@ html {
   box-shadow: none !important;
 }
 .project-heading {
-  color: white !important;
+  color: rgb(14, 0, 0) !important;
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  text-align: center !important;
 }
 
 /* --------- */
